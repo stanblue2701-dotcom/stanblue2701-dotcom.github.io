@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stan Blue - AI Agent Systems</title>
+  <meta name="description" content="Personal homepage for a Columbia MSCS student working on AI agents, tool use, agent evaluation, memory systems, and reliable automation.">
+  <meta name="theme-color" content="#f7f8f3">
+  <link rel="preload" href="assets/agent-hero.png" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Stan Blue home">
+        <span class="brand-mark">SB</span>
+        <span>Stan Blue</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links" data-nav-links>
+        <a href="#work" data-nav-link>Work</a>
+        <a href="#systems" data-nav-link>Systems</a>
+        <a href="#experience" data-nav-link>Experience</a>
+        <a href="#notes" data-nav-link>Notes</a>
+        <a class="contact-chip" href="mailto:StanBlue2701@gmail.com">Email</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" data-section>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Columbia MSCS / Agentic AI / Tool-use Systems</p>
+        <h1>Building agents that can plan, act, recover, and be evaluated.</h1>
+        <p class="lede">
+          I am a Computer Science master's student at Columbia University focused on
+          agentic workflows: tool calling, long-horizon task execution, memory-augmented
+          systems, and reliability infrastructure for AI agents in production settings.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button primary" href="#work">Selected Work</a>
+          <a class="button" href="mailto:StanBlue2701@gmail.com">StanBlue2701@gmail.com</a>
+        </div>
+      </div>
+
+      <figure class="hero-visual reveal">
+        <img src="assets/agent-hero.png" alt="Abstract visualization of AI agent workflows, tool calls, memory traces, and evaluation dashboards.">
+      </figure>
+    </section>
+
+    <section class="signal-strip reveal" aria-label="Research signals">
+      <div>
+        <strong>Focus</strong>
+        <span>AI agents, planning, memory, RAG, tool use</span>
+      </div>
+      <div>
+        <strong>Base</strong>
+        <span>Columbia University, New York</span>
+      </div>
+      <div>
+        <strong>Mode</strong>
+        <span>Research prototypes to deployed systems</span>
+      </div>
+    </section>
+
+    <section class="section" id="work" data-section>
+      <div class="section-title reveal">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Agent systems with measurable behavior.</h2>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-item reveal">
+          <span class="work-index">01</span>
+          <div>
+            <p class="tag">Agent Evaluation</p>
+            <h3>Long-horizon tool-use benchmark</h3>
+            <p>
+              Designed evaluation tasks that require agents to search, call APIs, update
+              files, and recover from partial failures. The harness tracks task success,
+              tool latency, action validity, and unnecessary step count.
+            </p>
+          </div>
+        </article>
+
+        <article class="work-item reveal">
+          <span class="work-index">02</span>
+          <div>
+            <p class="tag">Memory Systems</p>
+            <h3>Dynamic memory layer for enterprise workflows</h3>
+            <p>
+              Prototyped a memory service that separates episodic traces, user preferences,
+              retrieved documents, and durable operating procedures so agents can reuse
+              context without polluting each task prompt.
+            </p>
+          </div>
+        </article>
+
+        <article class="work-item reveal">
+          <span class="work-index">03</span>
+          <div>
+            <p class="tag">Human-in-the-loop</p>
+            <h3>Approval gates for autonomous actions</h3>
+            <p>
+              Built policy checkpoints for high-impact actions such as sending messages,
+              mutating customer records, and deploying code. The interface explains what
+              the agent plans to do and preserves a replayable audit trail.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="systems" data-section>
+      <div class="section-title reveal">
+        <p class="eyebrow">Systems</p>
+        <h2>What I like to build</h2>
+      </div>
+
+      <div class="system-board reveal">
+        <div class="system-column">
+          <h3>Agent Runtime</h3>
+          <p>Planner-executor loops, tool schemas, state machines, retry policies, sandboxed code actions.</p>
+        </div>
+        <div class="system-column">
+          <h3>Retrieval + Memory</h3>
+          <p>Hybrid search, vector stores, procedural memory, context compression, trace summarization.</p>
+        </div>
+        <div class="system-column">
+          <h3>Evaluation</h3>
+          <p>Task suites, simulated users, trajectory scoring, regression dashboards, failure taxonomies.</p>
+        </div>
+        <div class="system-column">
+          <h3>Interfaces</h3>
+          <p>Operator consoles, approval flows, experiment views, compact audit logs, observable automation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience" data-section>
+      <div class="section-title reveal">
+        <p class="eyebrow">Experience</p>
+        <h2>Research and engineering profile</h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-item reveal">
+          <div class="date">2026 - Present</div>
+          <div>
+            <h3>MS Computer Science, Columbia University</h3>
+            <p>
+              Coursework and projects in natural language processing, machine learning
+              systems, databases, distributed systems, and human-centered AI.
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-item reveal">
+          <div class="date">2025 - 2026</div>
+          <div>
+            <h3>AI Agent Research Engineer, Independent Projects</h3>
+            <p>
+              Built agent prototypes for software engineering, research assistance, and
+              operations automation with explicit attention to observability and evaluation.
+            </p>
+          </div>
+        </article>
+
+        <article class="experience-item reveal">
+          <div class="date">Earlier</div>
+          <div>
+            <h3>Applied ML and Backend Systems</h3>
+            <p>
+              Worked across Python, TypeScript, PyTorch, retrieval systems, SQL databases,
+              and web infrastructure to turn model behavior into usable products.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section notes-section" id="notes" data-section>
+      <div class="section-title reveal">
+        <p class="eyebrow">Notes</p>
+        <h2>Working principles</h2>
+      </div>
+
+      <div class="notes-grid">
+        <article class="note reveal">
+          <h3>Agents need instrumentation.</h3>
+          <p>Autonomy is only useful when developers can inspect the trajectory, reproduce failures, and compare changes over time.</p>
+        </article>
+        <article class="note reveal">
+          <h3>Memory should be typed.</h3>
+          <p>Preferences, task traces, retrieved facts, and operating procedures should not live in one undifferentiated context blob.</p>
+        </article>
+        <article class="note reveal">
+          <h3>Human control is a design surface.</h3>
+          <p>The best approval flow is specific, fast, and auditable; it does not ask users to supervise every token.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>New York, NY</p>
+    <div class="footer-links">
+      <a href="mailto:StanBlue2701@gmail.com">Email</a>
+      <a href="#top">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
